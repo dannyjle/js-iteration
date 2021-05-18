@@ -81,9 +81,9 @@ function onlyTheEvenSurvive(numbers) {
  *
  */
 
-// function onlyTheEvenIndexedSurvive(numbers) {
-//   // Your code here
-// }
+function onlyTheEvenIndexedSurvive(numbers) {
+  return numbers.filter((number, index) => index % 2 === 0)
+}
 
 /*
  * 6)  Define a function bestMoviesOfTheYear that accepts an array of
@@ -102,9 +102,11 @@ function onlyTheEvenSurvive(numbers) {
  *
  */
 
-// function bestMoviesOfTheYear(movieObjectArray) {
-//   // Your code here
-// }
+function bestMoviesOfTheYear(movies, year) {
+  return movies
+    .filter(movie => movie.year === year && movie.score >= 90)
+    .map(movie => movie.name)
+}
 
 /*
  * 7) Define a function everyoneIsOdd that accepts an array of
@@ -115,9 +117,9 @@ function onlyTheEvenSurvive(numbers) {
  *
  */
 
-// function everyoneIsOdd(numbers) {
-//   // Your code here
-// }
+function everyoneIsOdd(numbers) {
+  return numbers.every(number => number % 2 !== 0)
+}
 
 /*
  * 8) Define a function findTheNeedle that accepts an array of
