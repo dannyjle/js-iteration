@@ -30,9 +30,9 @@
 // Uncomment the function below. Then underneath, or replacing, the
 // line "// Your code here", write your implementation code.
 
-// function yelling(words) {
-//   // Your code here
-// }
+const yelling = words => {
+  return words.map(word => word.toUpperCase())
+}
 
 /**
  *
