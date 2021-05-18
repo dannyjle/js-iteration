@@ -57,9 +57,9 @@ function doubleTrouble(numbers) {
  *
  */
 
-// function stringyIndexes(strings) {
-//   // Your code here
-// }
+function stringyIndexes(strings) {
+  return strings.map((string, index) => `${string} is at index ${index}`)
+}
 
 /*
  * 4) Define a function named onlyTheEvenSurvive that accepts an array of
@@ -69,9 +69,9 @@ function doubleTrouble(numbers) {
  *
  */
 
-// function onlyTheEvenSurvive(numbers) {
-//   // Your code here
-// }
+function onlyTheEvenSurvive(numbers) {
+  return numbers.filter(number => number % 2 === 0)
+}
 
 /*
  * 5) Define a function onlyTheEvenIndexedSurvive that accepts an array of
