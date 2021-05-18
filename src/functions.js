@@ -30,7 +30,7 @@
 // Uncomment the function below. Then underneath, or replacing, the
 // line "// Your code here", write your implementation code.
 
-const yelling = words => {
+function yelling(words) {
   return words.map(word => word.toUpperCase())
 }
 
@@ -44,9 +44,9 @@ const yelling = words => {
  *
  */
 
-// function doubleTrouble(numbers) {
-//   // Your code here
-// }
+function doubleTrouble(numbers) {
+  return numbers.map(number => number * 2)
+}
 
 /*
  * 3) Define a function named `stringyIndexes` that takes an array of
